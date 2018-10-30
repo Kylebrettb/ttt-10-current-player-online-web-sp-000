@@ -10,5 +10,5 @@ end
 end
 def current_player(board)
   turn_count(board)
-  
+  number % 2 != 0
 end
