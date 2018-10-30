@@ -7,4 +7,7 @@ board.each do |position|
     end
 end
     counter
-end
+def current_player(board)
+  turn_count(board)
+   % 2 != 0
+endnd
